@@ -2,4 +2,4 @@ lab50: true
 
 lab50: 
    files:
-      - !include test.cpp
+      - !include test/test.cpp
