@@ -5,11 +5,8 @@ lab50:
       - !include test.cpp
 
 check50:
-   files:
-      - !require test
-
-   check:
+   checks:
       Hello World:
-         - run: ./test
+          - run: ./test
             stdout: "Hello, Wolrd!"
             exit: 0
