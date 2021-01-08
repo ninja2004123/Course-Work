@@ -1,8 +1,0 @@
-lab50: true
-
-check50:
-   checks:
-      Hello World:
-          - run: ./test.cpp
-            stdout: Hello, World!
-            exit: 0
