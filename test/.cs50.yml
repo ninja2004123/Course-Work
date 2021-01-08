@@ -3,3 +3,11 @@ lab50: true
 lab50:
    files:
       - !include test.cpp
+
+
+check50:
+   checks:
+      Hello World:
+         - run: ./test.cpp
+         stdout: Hello, World!
+         exit: 0
