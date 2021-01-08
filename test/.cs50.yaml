@@ -1,3 +1,5 @@
+lab50: true
+
 check50:
    checks:
       Hello World:
