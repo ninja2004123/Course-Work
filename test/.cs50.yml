@@ -4,9 +4,4 @@ lab50:
    files:
       - !include test.cpp
 
-check50:
-   checks:
-      Hello World:
-          - run: ./test
-            stdout: "Hello, World!"
-            exit: 0
+check50: true
