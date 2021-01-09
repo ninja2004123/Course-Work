@@ -6,6 +6,7 @@ lab50:
 
 check50:
    checks:
-       - run: ./test
-         stdout: "Hello, World!"
-         exit: 0
+      Hello World:
+          - run: ./test
+            stdout: "Hello, World!"
+            exit: 0
