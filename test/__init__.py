@@ -11,7 +11,7 @@ def exists():
 @check50.check(exists)
 def compiles():
     """test.cpp compiles."""
-    check50.c.compile("test.cpp", lcs50=True)
+    check50.compile("test.cpp", lcs50=True)
 	
 	
 	
