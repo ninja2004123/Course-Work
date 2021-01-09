@@ -19,4 +19,4 @@ def compiles():
 @check50.check(compiles)
 def Hello_World():
     """Prints Hello World!"""
-    check50.run("./test").stdout("Hello, World!").exit(0)
+    check50.run("./test").stdout("Hello, World!\n").exit(0)
