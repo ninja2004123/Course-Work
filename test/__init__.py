@@ -1,5 +1,4 @@
 import check50
-import check50.cpp
 
 
 @check50.check()
