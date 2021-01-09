@@ -3,7 +3,7 @@ import check50
 
 
 @check50.check()
-def existt():
+def exists():
     """test.cpp exists"""
     check50.exists("test.cpp")
     
