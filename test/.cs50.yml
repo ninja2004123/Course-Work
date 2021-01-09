@@ -3,5 +3,6 @@ lab50: true
 lab50:
    files:
       - !include test.cpp
+      - !export __init__.py
 
 check50: true
